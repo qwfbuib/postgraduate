@@ -1,0 +1,24 @@
+# Qt and compiler output
+[Bb]uild/
+[Bb]uild-*/
+[Dd]ebug/
+[Rr]elease/
+Makefile
+Makefile.Debug
+Makefile.Release
+.qmake.stash
+*.pro.user*
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Local runtime data
+RecvFile/
+*.log
+.env
+.env.local
